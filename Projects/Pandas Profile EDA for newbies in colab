@@ -1,0 +1,30 @@
+# if you are using google colab
+
+!pip install pandas_profiling==2.9.0
+from pandas_profiling import ProfileReport
+import seaborn as sns
+import pandas as pd
+from google.colab import files
+
+df = sns.load_datasets('iris')
+df
+
+prof = ProfileReport(df)
+prof.to_file('report.html')
+files.download('report.html')
+
+
+# if you are using kaggle/jupyter
+
+pip install pandas_profiling==2.9.0
+from pandas_profiling import ProfileReport
+import seaborn as sns
+import pandas as pd
+from google.colab import files
+
+df = sns.load_datasets('iris')
+df
+
+prof = ProfileReport(df)
+prof.to_file('report.html')
+prof.to_widgets()
