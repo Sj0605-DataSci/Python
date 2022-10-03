@@ -80,6 +80,9 @@ You can contribute too! :smile:
 
 30. **Stopwatch** - A simple stopwatch which makes use of multithreading to display a count up timer whilst the stopwatch runs.
 
+31. ** Face Recognition ** - A simple face recogniser program using opencv
+![ss](https://github.com/Sj0605-DataSci/screeenshots/blob/main/Screenshot%202022-10-04%20at%201.18.15%20AM.png)
+
 
 ## Can I contribute?
 
